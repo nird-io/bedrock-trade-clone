@@ -1,0 +1,26 @@
+.img_container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+.hero_card {
+  /* border: 1px solid; */
+}
+
+.hero_card img {
+  object-fit: cover;
+}
+
+.img_container img {
+  width: 100%;
+  height: auto;
+}
+
+.hero_card_container_a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  gap: 1em;
+}
