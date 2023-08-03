@@ -6,6 +6,7 @@ import { Exchange } from "@/components/Home/Exchange";
 import { ExchangeTable } from "@/components/Home/ExchangeTable";
 import { Section_a } from "@/components/Home/Section_a";
 import { Section_b } from "@/components/Home/Section_b";
+import { Section_c } from "@/components/Home/Section_c";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
       <ExchangeTable />
       <Section_a />
       <Section_b />
+      <Section_c />
     </main>
   );
 }
