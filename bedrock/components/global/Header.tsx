@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import logo from "@/public/media/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faUser } from "@fortawesome/free-solid-svg-icons";
+import MenuMobile from "./MenuMobile";
 
 export const Header = () => {
   return (
@@ -25,6 +26,7 @@ export const Header = () => {
           </li>
         </ul>
         <AuthBtn />
+        <MenuMobile />
       </nav>
     </div>
   );
