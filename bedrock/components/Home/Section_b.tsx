@@ -17,7 +17,7 @@ export const Section_b = () => {
           silver, irons and precious energy.
         </p>
       </div>
-      <div className="grid md:grid-cols-4 p-4 gap-6">
+      <div className="grid md:grid-cols-3 p-4 gap-6">
         <div className="border shadow-xl p-4 flex flex-col gap-4 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 text-slate-50 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">
           <div>
             <FontAwesomeIcon icon={faCheckCircle} />
@@ -67,6 +67,16 @@ export const Section_b = () => {
             <span className="font-bold">Enhanced Security :</span> P2P platforms
             implement robust security measures to protect the integrity of
             transactions and the confidentiality of user data
+          </p>
+        </div>
+        <div className="border shadow-xl p-4 flex flex-col gap-4 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 text-slate-50 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500">
+          <div>
+            <FontAwesomeIcon icon={faCheckCircle} />
+          </div>
+          <p className="text-sm">
+            <span className="font-bold">Support and Assistance :</span> P2P
+            platforms typically offer customer support and assistance throughout
+            the trading process.
           </p>
         </div>
       </div>
