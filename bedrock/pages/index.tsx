@@ -8,6 +8,7 @@ import { Section_a } from "@/components/Home/Section_a";
 import { Section_b } from "@/components/Home/Section_b";
 import { Section_c } from "@/components/Home/Section_c";
 import { Section_d } from "@/components/Home/Section_d";
+import { Section_e } from "@/components/Home/Section_e";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Section_b />
       <Section_c />
       <Section_d />
+      <Section_e />
     </main>
   );
 }
