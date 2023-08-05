@@ -24,3 +24,21 @@
   border: 1px solid;
   gap: 1em;
 }
+
+.testimonials_styles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  /* justify-content: center; */
+  gap: 2rem;
+  /* padding: 2rem 1rem; */
+  /* padding: 2rem 0; */
+}
+
+@media screen and (max-width: 780px) {
+  .testimonials_styles {
+    display: flex;
+    gap: 1rem;
+    /* padding: 1rem; */
+    overflow-y: auto;
+  }
+}
