@@ -20,7 +20,7 @@ export const Section_e = () => {
           />
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-medium">Create an Account</h3>
-            <p className="font-thin text-base">
+            <p className="text-base">
               Get started by inputting all your required details as an
               individual, corporate, or government body & submit them for
               verification.
@@ -35,7 +35,7 @@ export const Section_e = () => {
           />
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-medium">Verify your Account</h3>
-            <p className="font-thin text-base">
+            <p className="text-base">
               Your submitted credentials would then be subjected to verification
               before your account gets approved.
             </p>
@@ -49,7 +49,7 @@ export const Section_e = () => {
           />
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-medium">Buy and Sell Crypto</h3>
-            <p className="font-thin text-base">
+            <p className="text-base">
               With your account approved, start selling, as a merchant, or
               buying, as a customer, your choice of financial products.
             </p>
