@@ -37,9 +37,9 @@ export const Section_c = () => {
             size="small"
             className="flex gap-3 items-center justify-center"
             sx={{ backgroundColor: "#bc37c8 !important", borderRadius: "2em" }}
+            endIcon={<FontAwesomeIcon icon={faBank} />}
           >
             Start Trading with Bedrock
-            <FontAwesomeIcon icon={faBank} />
           </Button>
         </div>
       </div>

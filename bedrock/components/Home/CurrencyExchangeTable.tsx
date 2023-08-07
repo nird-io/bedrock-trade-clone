@@ -35,7 +35,9 @@ export default function CurrencyExchangeTable() {
             </TableCell>
             <TableCell align="left">USD</TableCell>
             <TableCell align="left">$ 29046.680</TableCell>
-            <TableCell align="left">+0.0015 %</TableCell>
+            <TableCell align="left" className="text-red-600">
+              -0.0015 %
+            </TableCell>
             <TableCell align="left">
               <Button size={"small"}>Buy</Button>
             </TableCell>
@@ -49,7 +51,9 @@ export default function CurrencyExchangeTable() {
             </TableCell>
             <TableCell align="left">USD</TableCell>
             <TableCell align="left">$ 29046.680</TableCell>
-            <TableCell align="left">+0.0015 %</TableCell>
+            <TableCell align="left" className="text-green-600">
+              +0.0015 %
+            </TableCell>
             <TableCell align="left">
               <Button size={"small"}>Buy</Button>
             </TableCell>

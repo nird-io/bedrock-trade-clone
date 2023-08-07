@@ -15,7 +15,7 @@ export const ExchangeTable = () => {
           Trade Some Popular Cryptocurrencies
         </h2>
         <Link
-          className="flex text-center border w-28 items-center gap-4 text-sm md:text-base font-bold text-pink-600"
+          className="flex text-center w-28 items-center gap-4 text-sm md:text-base font-bold text-pink-600"
           href={"/auth/login"}
         >
           <span>View all</span>
